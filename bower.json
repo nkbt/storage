@@ -8,7 +8,8 @@
 	},
 	"main": [
 		"js/storage.js",
-		"html/container.html"
+		"js/entity/from-json.js",
+		"js/vendor/storage.js"
 	],
 	"private": true,
 	"ignore": [

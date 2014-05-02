@@ -1,6 +1,6 @@
 {
 	"name": "bower-template",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"description": "bower-template",
 	"author": {
 		"name": "Nik Butenko",
@@ -9,7 +9,7 @@
 	"main": [
 		"js/storage.js",
 		"js/entity/from-json.js",
-		"js/vendor/storage.js"
+		"js/vendor/storage-polyfill.js"
 	],
 	"private": true,
 	"ignore": [

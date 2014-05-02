@@ -11,8 +11,7 @@
 			mocha: '../bower/mocha/mocha',
 			chai: '../bower/chai/chai',
 
-			'myModule': '../js/myModule',
-			'myModule/html': '../html'
+			'lib/storage': '../js/storage'
 		},
 		shim: {
 			underscore: {
@@ -42,7 +41,7 @@
 		mocha.ui('bdd');
 		window.expect = chai.expect;
 		require([
-			'test/lib/myModule'
+			'test/lib/storage'
 		], function () {
 			if (window.mochaPhantomJS) {
 				mochaPhantomJS.run();

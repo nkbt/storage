@@ -4,11 +4,13 @@ define(['lib/storage'], function (storage) {
 
 	describe('Storage', function () {
 
+
 		beforeEach(function (done) {
 			storage.clear(function () {
 				storage.set('always', {ok: true}, done);
 			});
 		});
+
 
 		afterEach(function (done) {
 			storage.clear(done);
@@ -23,6 +25,7 @@ define(['lib/storage'], function (storage) {
 				done();
 			});
 		});
+
 
 		it('should get item', function (done) {
 			storage.get('always', function (error, data) {

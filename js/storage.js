@@ -1,5 +1,5 @@
 define([
-	'underscore', 'entity/from-json', 'vendor/storage'
+	'underscore', 'entity/from-json', 'vendor/storage-polyfill'
 ], function (_, fromJson) {
 	"use strict";
 

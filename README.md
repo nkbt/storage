@@ -1,4 +1,10 @@
-bower-template
+nkbt/storage
 =================
 
-Template to be used to create Bower modules
+Local storage  abstraction
+
+
+Installation
+-
+
+    bower install --save nkbt/storage

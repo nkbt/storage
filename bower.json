@@ -1,6 +1,6 @@
 {
 	"name": "bower-template",
-	"version": "0.0.4",
+	"version": "0.0.5",
 	"description": "bower-template",
 	"author": {
 		"name": "Nik Butenko",
@@ -19,11 +19,11 @@
 		"test"
 	],
 	"dependencies": {
-		"underscore": "~1.6.0",
-		"requirejs": "~2.1.11"
+		"underscore": "*",
+		"requirejs": "*"
 	},
 	"devDependencies": {
-		"chai": "~1.9.1",
-		"mocha": "~1.18.2"
+		"chai": "*",
+		"mocha": "*"
 	}
 }

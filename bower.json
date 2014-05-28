@@ -1,7 +1,6 @@
 {
-	"name": "bower-template",
-	"version": "0.0.5",
-	"description": "bower-template",
+	"name": "storage",
+	"description": "storage",
 	"author": {
 		"name": "Nik Butenko",
 		"email": "nik@butenko.me"
@@ -18,6 +17,10 @@
 		"bower",
 		"test"
 	],
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/nkbt/storage.git"
+	},
 	"dependencies": {
 		"underscore": "*",
 		"requirejs": "*"

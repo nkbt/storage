@@ -1,6 +1,5 @@
 {
 	"name": "storage",
-	"version": "0.0.5",
 	"description": "storage",
 	"private": true,
 	"author": {
@@ -16,10 +15,6 @@
 	"scripts": {
 		"test": "grunt test",
 		"build": "grunt"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git@github.com:nkbt/storage.git"
 	},
 	"dependencies": {},
 	"devDependencies": {
